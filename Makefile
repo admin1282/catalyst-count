@@ -16,7 +16,7 @@ shell:
 
 .PHONY: superuser
 superuser:
-	poetry run python3.11 core/manage.py createsuperuser
+	poetry run python core/manage.py createsuperuser
 
 .PHONY: update
 update:
